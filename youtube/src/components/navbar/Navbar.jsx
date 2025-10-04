@@ -17,8 +17,8 @@ const Navbar = () => {
       </div>
 
       {/* Search area */}
-      <div>
-        <input type="text" placeholder="Search" />
+      <div className="flex items-center w-1/2 max-w-xl">
+        <input type="text" placeholder="Search"className="w-full border border-grey-300 rounded-l-full px-4 py-4 focus:outline-none focus:border-grey-400 text-sm" />
         <img src={search_icon} alt="" />
       </div>
 
