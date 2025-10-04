@@ -18,7 +18,7 @@ const Feed = () => {
     { thumbnail: thumbnail5, title: "Day out with friends", channel: "Guyzz", views: "8M views", time: "4 days ago" },
     { thumbnail: thumbnail6, title: "Lambo Unboxing 🎁", channel: "CarGuy", views: "15M views", time: "3 days ago" },
     { thumbnail: thumbnail7, title: "SpaceX headquarter tour", channel: "Markvlogs", views: "7M views", time: "5 days ago" },
-    { thumbnail: thumbnail8, title: "Relaxing music for work", channel: "MusicVibes", views: "25M views", time: "1 week ago" },
+    { thumbnail: thumbnail8, title: "Racing with Lambo 🏁", channel: "CarGuy", views: "25M views", time: "1 week ago" },
   ];
 
   return (
