@@ -1,10 +1,12 @@
 import React from "react";
-import Navbar from "./components/navbar/Navbar"; // Navbar component
-import { Routes, Route } from "react-router-dom"; // ✅ you must import Route as well
-import Home from "./pages/home/Home"; // ✅ import your Home component
-import Video from "./pages/video/Video"; // ✅ import your Video component
+import Navbar from "./components/navbar/Navbar"; 
+import { Routes, Route } from "react-router-dom"; 
+import Home from "./pages/home/Home"; 
+import Video from "./pages/video/Video"; 
 
 const App = () => {
+
+  const [sidebarOpen, setSidebarOpen] = React.useState(true);
   return (
     <div>
       <Navbar />
