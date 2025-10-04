@@ -12,8 +12,18 @@ const Navbar = (setSidebar) => {
     <nav className="flex justify-between items-center px-4 py-6 shadow-md sticky top-0 bg-white z-50">
       {/* Left div */}
       <div className="flex items-center gap-4">
-        <img src={menu_icon} alt="menu" className="w-6 h-6 cursor-pointer" onClick={()=>setSidebar(prev=>prev===false?true:false)} />
-        <img src={logo} alt="logo" className="h-8 sm:h-10 md:h-12 cursor-pointer object-contain" />
+        <img
+          src={menu_icon}
+          alt="menu"
+          className="w-6 h-6 cursor-pointer"
+          onClick={() => setSidebar((prev) => !prev)}
+        />
+
+        <img
+          src={logo}
+          alt="logo"
+          className="h-8 sm:h-10 md:h-12 cursor-pointer object-contain"
+        />
       </div>
 
       {/* Search area */}
@@ -33,10 +43,22 @@ const Navbar = (setSidebar) => {
 
       {/* Right div */}
       <div className="flex gap-5 justify-between">
-        <img src={upload_icon} alt="upload" className="w-6 h-6 cursor-pointer"/>
-        <img src={more_icon} alt="more"className="w-6 h-6 cursor-pointer" />
-        <img src={notifications_icon} alt="notification" className="w-8 h-8 rounded-full cursor-pointer" />
-        <img src={user_icon} alt="user" className="w-10 h-10 rounded-full cursor-pointer" />
+        <img
+          src={upload_icon}
+          alt="upload"
+          className="w-6 h-6 cursor-pointer"
+        />
+        <img src={more_icon} alt="more" className="w-6 h-6 cursor-pointer" />
+        <img
+          src={notifications_icon}
+          alt="notification"
+          className="w-8 h-8 rounded-full cursor-pointer"
+        />
+        <img
+          src={user_icon}
+          alt="user"
+          className="w-10 h-10 rounded-full cursor-pointer"
+        />
       </div>
     </nav>
   );
