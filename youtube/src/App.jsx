@@ -6,10 +6,10 @@ import Video from "./pages/video/Video";
 
 const App = () => {
 
-  const [sidebarOpen, setSidebarOpen] = React.useState(true);
+  const [sidebar, setSidebar] = React.useState(true);
   return (
     <div>
-      <Navbar />
+      <Navbar sidebar={setSidebar}/>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/video/:categoryId/:videoId" element={<Video />} />
