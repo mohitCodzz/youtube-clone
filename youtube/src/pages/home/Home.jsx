@@ -1,15 +1,19 @@
-import React from 'react'
-import Sidebar from '../../components/sidebar/Sidebar'
-import Feed from '../../components/feed/Feed'
-const Home = ({sidebar}) => {
-  return (
-    <>
-    <Sidebar sidebar={sidebar }/>
-    <div className={`container ${sidebar ? "" : large-container}`}>
-     <Feed />
-    </div>
-    </>
-  )
-}
+import React from 'react';
+import Sidebar from '../../components/sidebar/Sidebar';
+import Feed from '../../components/feed/Feed';
 
-export default Home
+const Home = ({ sidebar }) => {
+  return (
+    <div className="flex">
+      {/* Sidebar */}
+      <Sidebar sidebar={sidebar} />
+
+      {/* Feed area */}
+      <div className="flex-1 p-4">
+        <Feed />
+      </div>
+    </div>
+  );
+};
+
+export default Home;
