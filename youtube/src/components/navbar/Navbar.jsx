@@ -1,8 +1,17 @@
 import React from 'react'
+import menu_icon from '../../assets/menu.png'
+import logo from '../../assets/logo.png'
 
 const Navbar = () => {
   return (
-    <div>Navbar</div>
+   <nav>
+    <div>
+<img src={menu_icon} alt="" />
+<img src={logo} alt="" />
+    </div>
+
+    {/* */}
+   </nav>
   )
 }
 
