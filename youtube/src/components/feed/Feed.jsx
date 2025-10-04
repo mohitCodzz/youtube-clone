@@ -7,18 +7,20 @@ import thumbnail5 from '../../assets/thumbnail5.png';
 import thumbnail6 from '../../assets/thumbnail6.png';
 import thumbnail7 from '../../assets/thumbnail7.png';
 import thumbnail8 from '../../assets/thumbnail8.png';
+import thumbnail9 from '../../assets/thumbnail9.png'; // ✅ import added
 
 const Feed = () => {
   // Array of video data
   const videos = [
-    { thumbnail: thumbnail1, title: "Most amazing view of the nature!", channel: "NatureExpo", views: "20M views", time: "1 day ago" },
+    { thumbnail: thumbnail9, title: "SpaceX rocket launch 🚀", channel: "SpaceX", views: "100M views", time: "1 day ago" },
     { thumbnail: thumbnail2, title: "USA 🇺🇸 !", channel: "WildLifeTV", views: "10M views", time: "3 days ago" },
-    { thumbnail: thumbnail3, title: "A day in New York ", channel: "TechWorld", views: "5M views", time: "2 days ago" },
+    { thumbnail: thumbnail3, title: "A day in New York", channel: "TechWorld", views: "5M views", time: "2 days ago" },
     { thumbnail: thumbnail4, title: "Top 10 travel destinations", channel: "TravelWithYash", views: "12M views", time: "1 day ago" },
     { thumbnail: thumbnail5, title: "Day out with friends", channel: "Guyzz", views: "8M views", time: "4 days ago" },
     { thumbnail: thumbnail6, title: "Lambo Unboxing 🎁", channel: "CarGuy", views: "15M views", time: "3 days ago" },
     { thumbnail: thumbnail7, title: "SpaceX headquarter tour", channel: "Markvlogs", views: "7M views", time: "5 days ago" },
     { thumbnail: thumbnail8, title: "Racing with Lambo 🏁", channel: "CarGuy", views: "25M views", time: "1 week ago" },
+    { thumbnail: thumbnail1, title: "Most amazing view of the nature!", channel: "NatureXpo", views: "25M views", time: "1 week ago" }, // ✅ fixed
   ];
 
   return (
