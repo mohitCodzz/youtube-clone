@@ -9,7 +9,8 @@ import user_icon from '../../assets/jack.png'
 
 const Navbar = () => {
   return (
-   <nav>
+   <nav className='flex jsutify-between items-center px-4 py-8 shadow-md sticky top-0 bg-white z-50'>
+    
     <div>
 <img src={menu_icon} alt="menu" />
 <img src={logo} alt="logo" />
