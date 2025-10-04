@@ -7,7 +7,7 @@ import more_icon from "../../assets/more.png";
 import notifications_icon from "../../assets/notification.png";
 import user_icon from "../../assets/jack.png";
 
-const Navbar = () => {
+const Navbar = (setSidebar) => {
   return (
     <nav className="flex justify-between items-center px-4 py-6 shadow-md sticky top-0 bg-white z-50">
       {/* Left div */}
