@@ -9,7 +9,7 @@ import user_icon from "../../assets/jack.png";
 
 const Navbar = () => {
   return (
-    <nav className="flex justify-between items-center px-4 py-8 shadow-md sticky top-0 bg-white z-50">
+    <nav className="flex justify-between items-center px-4 py-6 shadow-md sticky top-0 bg-white z-50">
       {/* Left div */}
       <div className="flex items-center gap-4">
         <img src={menu_icon} alt="menu" className="w-6 h-6 cursor-pointer" />
