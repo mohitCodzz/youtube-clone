@@ -12,12 +12,12 @@ const Feed = () => {
   // Array of video data
   const videos = [
     { thumbnail: thumbnail1, title: "Most amazing view of the nature!", channel: "NatureExpo", views: "20M views", time: "1 day ago" },
-    { thumbnail: thumbnail2, title: "Incredible wildlife captured!", channel: "WildLifeTV", views: "10M views", time: "3 days ago" },
-    { thumbnail: thumbnail3, title: "Tech gadgets you must try", channel: "TechWorld", views: "5M views", time: "2 days ago" },
-    { thumbnail: thumbnail4, title: "Top 10 football goals", channel: "SportsHub", views: "12M views", time: "1 day ago" },
-    { thumbnail: thumbnail5, title: "Delicious recipes to try", channel: "Foodies", views: "8M views", time: "4 days ago" },
-    { thumbnail: thumbnail6, title: "Amazing travel destinations", channel: "TravelGuide", views: "15M views", time: "3 days ago" },
-    { thumbnail: thumbnail7, title: "Mind-blowing science experiments", channel: "ScienceLab", views: "7M views", time: "5 days ago" },
+    { thumbnail: thumbnail2, title: "USA 🇺🇸 !", channel: "WildLifeTV", views: "10M views", time: "3 days ago" },
+    { thumbnail: thumbnail3, title: "A day in New York ", channel: "TechWorld", views: "5M views", time: "2 days ago" },
+    { thumbnail: thumbnail4, title: "Top 10 travel destinations", channel: "TravelWithYash", views: "12M views", time: "1 day ago" },
+    { thumbnail: thumbnail5, title: "Day out with friends", channel: "Guyzz", views: "8M views", time: "4 days ago" },
+    { thumbnail: thumbnail6, title: "Lambo Unboxing 🎁", channel: "CarGuy", views: "15M views", time: "3 days ago" },
+    { thumbnail: thumbnail7, title: "SpaceX headquarter tour", channel: "Markvlogs", views: "7M views", time: "5 days ago" },
     { thumbnail: thumbnail8, title: "Relaxing music for work", channel: "MusicVibes", views: "25M views", time: "1 week ago" },
   ];
 
