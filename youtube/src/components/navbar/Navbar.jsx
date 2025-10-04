@@ -12,7 +12,7 @@ const Navbar = (setSidebar) => {
     <nav className="flex justify-between items-center px-4 py-6 shadow-md sticky top-0 bg-white z-50">
       {/* Left div */}
       <div className="flex items-center gap-4">
-        <img src={menu_icon} alt="menu" className="w-6 h-6 cursor-pointer" />
+        <img src={menu_icon} alt="menu" className="w-6 h-6 cursor-pointer" onClick={()=>setSidebar(prev=>prev===false?true:false)} />
         <img src={logo} alt="logo" className="h-8 sm:h-10 md:h-12 cursor-pointer object-contain" />
       </div>
 
