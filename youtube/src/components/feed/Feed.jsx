@@ -7,12 +7,14 @@ import thumbnail5 from '../../assets/thumbnail5.png';
 import thumbnail6 from '../../assets/thumbnail6.png';
 import thumbnail7 from '../../assets/thumbnail7.png';
 import thumbnail8 from '../../assets/thumbnail8.png';
-import thumbnail9 from '../../assets/thumbnail9.png'; // ✅ import added
+import thumbnail9 from '../../assets/thumbnail9.png'; 
+import thumbnail10 from '../../assets/thumbnail10.png'
 
 const Feed = () => {
   // Array of video data
   const videos = [
     { thumbnail: thumbnail9, title: "SpaceX rocket launch 🚀", channel: "SpaceX", views: "100M views", time: "1 day ago" },
+    { thumbnail: thumbnail10, title: "Night Sky from ISRO HQ 🚀", channel: "SpaceX", views: "100M views", time: "1 day ago" },
     { thumbnail: thumbnail2, title: "USA 🇺🇸 !", channel: "WildLifeTV", views: "10M views", time: "3 days ago" },
     { thumbnail: thumbnail3, title: "A day in New York", channel: "TechWorld", views: "5M views", time: "2 days ago" },
     { thumbnail: thumbnail4, title: "Top 10 travel destinations", channel: "TravelWithYash", views: "12M views", time: "1 day ago" },
