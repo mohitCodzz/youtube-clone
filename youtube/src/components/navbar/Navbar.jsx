@@ -10,24 +10,33 @@ import user_icon from "../../assets/jack.png";
 const Navbar = () => {
   return (
     <nav className="flex jsutify-between items-center px-4 py-8 shadow-md sticky top-0 bg-white z-50">
-        {/* Left div */}
-      <div className="flex items-center gap-4"> 
-        <img src={menu_icon} alt="menu" className="w-6 h-6 cursor-pointer"/>
-        <img src={logo} alt="logo"className="h-6 cursor-pointer" />
+      {/* Left div */}
+      <div className="flex items-center gap-4">
+        <img src={menu_icon} alt="menu" className="w-6 h-6 cursor-pointer" />
+        <img src={logo} alt="logo" className="h-6 cursor-pointer" />
       </div>
 
       {/* Search area */}
       <div className="flex items-center w-1/2 max-w-xl">
-        <input type="text" placeholder="Search"className="w-full border border-grey-300 rounded-l-full px-4 py-4 focus:outline-none focus:border-grey-400 text-sm" />
-        <img src={search_icon} alt="" />
+        {/* Input */}
+        <input
+          type="text"
+          placeholder="Search"
+          className="w-full border border-gray-300 rounded-l-full px-4 py-1 focus:outline-none focus:border-gray-400 text-sm h-10"
+        />
+
+        {/* Search button with icon */}
+        <button className="bg-gray-100 border border-gray-300 rounded-r-full px-4 hover:bg-gray-200 h-10 flex items-center justify-center cursor-pointer">
+          <img src={search_icon} alt="Search" className="w-4 h-4" />
+        </button>
       </div>
 
       {/* Right div */}
-      <div>
-        <img src={upload_icon} alt="upload" />
-        <img src={more_icon} alt="more" />
-        <img src={notifications_icon} alt="notification" />
-        <img src={user_icon} alt="user" />
+      <div className="flex gap-5 justify-end">
+        <img src={upload_icon} alt="upload" className="w-6 h-6 cursor-pointer"/>
+        <img src={more_icon} alt="more"className="w-6 h-6 cursor-pointer" />
+        <img src={notifications_icon} alt="notification" className="w-8 h-8 rounded-full cursor-pointer" />
+        <img src={user_icon} alt="user" className="w-10 h-10 rounded-full cursor-pointer" />
       </div>
     </nav>
   );
