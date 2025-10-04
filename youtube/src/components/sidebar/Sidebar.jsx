@@ -13,9 +13,9 @@ import tom from '../../assets/tom.png';
 import megan from '../../assets/megan.png';
 import cameron from '../../assets/cameron.png';
 
-const Sidebar = () => {
+const Sidebar = ({sidebar}) => {
   return (
-    <div className="p-4 w-64 flex flex-col gap-4">
+   <div className={`p-4 w-64 flex flex-col gap-4 sidebar ${sidebar ? "" : "small-sidebar"}`}>
       {/* Shortcut links */}
       <div className="flex flex-col gap-2">
         <div className="flex items-center gap-2 py-2 cursor-pointer">
