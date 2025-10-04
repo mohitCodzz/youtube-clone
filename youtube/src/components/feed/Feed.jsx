@@ -10,10 +10,13 @@ import thumbnail8 from '../../assets/thumbnail1.png';
 
 
 const Feed = () => {
-  return (
+  return ( 
     <div>
+        {/* Feed */}
         <img src={thumbnail1} alt="thumbnail1" />
         <h2>Most amazing view of the nature !</h2>
+        <h3>NatureExpo</h3>
+        <p>20M views &bull; 1 day ago</p>
     </div>
   )
 }
