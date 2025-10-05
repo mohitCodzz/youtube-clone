@@ -11,7 +11,7 @@ import user from '../../assets/user.png'
 const PlayVideo = () => {
   return (
     <div>
-        <video src={video1}></video>
+        <video src={video1} controls autoPlay muted></video>
     </div>
   )
 }
