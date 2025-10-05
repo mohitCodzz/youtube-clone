@@ -24,7 +24,8 @@ const Feed = () => {
     { thumbnail: thumbnail6, title: "Lambo Unboxing 🎁", channel: "CarGuy", views: "15M views", time: "3 days ago", videoId: "video6" },
     { thumbnail: thumbnail7, title: "SpaceX headquarter tour", channel: "Markvlogs", views: "7M views", time: "5 days ago", videoId: "video7" },
     { thumbnail: thumbnail8, title: "Racing with Lambo 🏁", channel: "CarGuy", views: "25M views", time: "1 week ago", videoId: "video8" },
-  
+    <br />
+     
   ];
     
 
