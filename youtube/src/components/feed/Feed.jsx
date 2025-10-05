@@ -10,9 +10,10 @@ import thumbnail7 from '../../assets/thumbnail7.png';
 import thumbnail8 from '../../assets/thumbnail8.png';
 import thumbnail9 from '../../assets/thumbnail9.png';
 import thumbnail10 from '../../assets/thumbnail10.png';
+import thumbnail11 from '../../assets/thumbnail11.png';
 
 const Feed = () => {
-  // Array of video data
+  // Long Videos
   const videos = [
     { thumbnail: thumbnail10, title: "Night Sky from ISRO HQ 🚀", channel: "ISRO", views: "100M views", time: "1 day ago", videoId: "video10" },
     { thumbnail: thumbnail9, title: "SpaceX rocket launch 🚀", channel: "SpaceX", views: "92M views", time: "1 day ago", videoId: "video9" },
@@ -24,10 +25,13 @@ const Feed = () => {
     { thumbnail: thumbnail6, title: "Lambo Unboxing 🎁", channel: "CarGuy", views: "15M views", time: "3 days ago", videoId: "video6" },
     { thumbnail: thumbnail7, title: "SpaceX headquarter tour", channel: "Markvlogs", views: "7M views", time: "5 days ago", videoId: "video7" },
     { thumbnail: thumbnail8, title: "Racing with Lambo 🏁", channel: "CarGuy", views: "25M views", time: "1 week ago", videoId: "video8" },
-    <br />
-     
+     {thumbnail: thumbnail11, title: "Bought new Tesla Model Y 🔋", channel: "Hey-Jasy", views: "2M views", time: "1 week ago", videoId: "video11" },
   ];
     
+  // Shorts Videos
+  const shorts = [
+    
+  ];
 
   return (
     <div className="p-4">
