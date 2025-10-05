@@ -1,34 +1,26 @@
-# Streamly 🎥
+# Streamly 🎥✨
 
-**Streamly** is a **YouTube UI clone** built to improve my **React** and **Tailwind CSS** skills.  
-It’s a **frontend-only project** focusing on responsive layouts, clean design, and modern UI patterns.
-
----
-
-## Features
-
-- Responsive video feed with thumbnails & channel info  
-- Shorts section (vertical videos)  
-- Video player page with controls  
-- Built with **React functional components**  
-- Styled using **Tailwind CSS**  
-- Routing with **React Router**
+**Streamly** is a **YouTube UI clone** built to improve my **React ⚛️** and **Tailwind CSS 🎨** skills.  
+A **frontend-only project** focused on **responsive layouts** and **modern UI patterns**.
 
 ---
 
-## Tech Stack
+## Features 🚀
 
-- React  
-- Tailwind CSS  
-- React Router  
-- Local media assets
+- 🎬 Responsive video feed with thumbnails & channel info  
+- 📱 Shorts section (vertical videos)  
+- ▶️ Video player page with controls  
+- ⚛️ Built with React functional components  
+- 🎨 Styled with Tailwind CSS  
+- 🔗 Routing with React Router
 
 ---
 
-## Installation
+## Tech Stack 🛠
 
-```bash
-git clone https://github.com/yourusername/streamly.git
-cd streamly
-npm install
-npm start
+- React ⚛️  
+- Tailwind CSS 🎨  
+- React Router 🔗  
+- Local media assets 📁
+
+---
